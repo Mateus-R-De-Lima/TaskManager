@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TaskManager.Communication.Response
 {
-    public class ResponseAllTask
+    public class ResponseAllTaskJson
     {
         public List<ResponseShotTask> Tasks { get; set; } = [];
     }
