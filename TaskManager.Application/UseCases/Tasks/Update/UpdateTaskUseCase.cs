@@ -8,7 +8,7 @@ using TaskManager.Communication.Response;
 
 namespace TaskManager.Application.UseCases.Tasks.Update
 {
-    public class UpdatePetUsecase
+    public class UpdateTaskUseCase
     {
         public ResponseRegisterTaskJson Execute(RequestTaskJson request)
         {
